@@ -29,7 +29,7 @@ function getnxtfibprinted(c){
     console.log("Using recursive function.")
     for (let i = 0; i <= c; i++){
         console.log(getFib(i))
-
+        console.log("hello")
     }
 }
 getnxtfibprinted(20)
